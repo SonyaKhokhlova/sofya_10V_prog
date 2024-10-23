@@ -8,6 +8,8 @@ namespace hw2
 {
     internal class Program
     {
+        /// <summary> Находит простые делители числа
+        /// </summary>
         static string PrimeFactors(int a)
         {
             string ans = "";
