@@ -31,7 +31,7 @@ namespace _2811
                 return new Fraction(a.Numerator * b.Numerator, a.Denominator * b.Denominator);
             }
 
-            public static Fraction operator/(Fraction a, Fraction b)
+            public static Fraction operator /(Fraction a, Fraction b)
             {
                 return new Fraction(a.Numerator * b.Denominator, a.Denominator * b.Numerator);
             }
